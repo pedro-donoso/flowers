@@ -21,9 +21,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Flowers &amp; Plants"
+                android:textColor="@color/teal_200"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/teal_200"/>
+                android:textStyle="bold" />
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -57,8 +57,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:padding="16dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex." />
-
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta ante. Mauris elementum quis eros sollicitudin vehicula. Integer urna ligula, tincidunt at porttitor vel, egestas ac metus. Sed libero mauris, ornare vel mi porta, sodales tincidunt felis. Nulla lacinia suscipit lobortis. In et nunc vitae nunc sollicitudin varius. Integer in accumsan nibh. Quisque sagittis diam non mauris venenatis fringilla. Aliquam porttitor nibh erat, nec posuere leo viverra in. Nam non malesuada velit." />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -85,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:padding="16dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex." />
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta ante. Mauris elementum quis eros sollicitudin vehicula. Integer urna ligula, tincidunt at porttitor vel, egestas ac metus. Sed libero mauris, ornare vel mi porta, sodales tincidunt felis. Nulla lacinia suscipit lobortis. In et nunc vitae nunc sollicitudin varius. Integer in accumsan nibh. Quisque sagittis diam non mauris venenatis fringilla. Aliquam porttitor nibh erat, nec posuere leo viverra in. Nam non malesuada velit." />
 
             </LinearLayout>
 
@@ -112,7 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:padding="16dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex." />
+                    android:text="Donec eu vestibulum purus. Ut vel augue sed purus cursus ultricies ut nec urna. Nam dui enim, sagittis et tempus eu, vestibulum nec felis. Duis et posuere risus. Mauris ullamcorper enim non odio tincidunt dignissim. Duis vitae purus eget quam laoreet fringilla. Etiam commodo arcu sed faucibus egestas. Donec tristique imperdiet nisl, in iaculis mauris condimentum pharetra. Phasellus vitae facilisis ante, non ultrices tortor. Phasellus tempor blandit malesuada. Donec maximus ut sapien a faucibus. Ut varius, nunc at aliquet ornare, neque ipsum venenatis neque, sed egestas arcu ligula vel ante. Nunc mattis hendrerit pharetra." />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
