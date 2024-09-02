@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/purple_200"
+            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flowers &amp; Plants"
+                android:textColor="@color/teal_200"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/flower1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="16dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta ante. Mauris elementum quis eros sollicitudin vehicula. Integer urna ligula, tincidunt at porttitor vel, egestas ac metus. Sed libero mauris, ornare vel mi porta, sodales tincidunt felis. Nulla lacinia suscipit lobortis. In et nunc vitae nunc sollicitudin varius. Integer in accumsan nibh. Quisque sagittis diam non mauris venenatis fringilla. Aliquam porttitor nibh erat, nec posuere leo viverra in. Nam non malesuada velit." />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/flower2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="16dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porta ante. Mauris elementum quis eros sollicitudin vehicula. Integer urna ligula, tincidunt at porttitor vel, egestas ac metus. Sed libero mauris, ornare vel mi porta, sodales tincidunt felis. Nulla lacinia suscipit lobortis. In et nunc vitae nunc sollicitudin varius. Integer in accumsan nibh. Quisque sagittis diam non mauris venenatis fringilla. Aliquam porttitor nibh erat, nec posuere leo viverra in. Nam non malesuada velit." />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/flower3" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="16dp"
+                    android:text="Donec eu vestibulum purus. Ut vel augue sed purus cursus ultricies ut nec urna. Nam dui enim, sagittis et tempus eu, vestibulum nec felis. Duis et posuere risus. Mauris ullamcorper enim non odio tincidunt dignissim. Duis vitae purus eget quam laoreet fringilla. Etiam commodo arcu sed faucibus egestas. Donec tristique imperdiet nisl, in iaculis mauris condimentum pharetra. Phasellus vitae facilisis ante, non ultrices tortor. Phasellus tempor blandit malesuada. Donec maximus ut sapien a faucibus. Ut varius, nunc at aliquet ornare, neque ipsum venenatis neque, sed egestas arcu ligula vel ante. Nunc mattis hendrerit pharetra." />
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+</LinearLayout>
