@@ -14,16 +14,16 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
-            app:titleTextColor="@android:color/white">
+            android:background="@color/purple_200"
+            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Flowers &amp; Plants"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/teal_200"/>
 
         </androidx.appcompat.widget.Toolbar>
 
